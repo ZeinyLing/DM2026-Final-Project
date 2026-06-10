@@ -71,7 +71,11 @@ check the root
 CSV_A = 
 CSV_B = 
 ```
-After checking do 3 times, 1. PatchTST + N-HiTS 2. TCN + N-HiTS 3. ( 1. + 2. )
+After checking do 3 times, 
+1. PatchTST + N-HiTS
+2. TCN + N-HiTS
+3. ( 1. + 2. )
+
 ```bash
 python ensemble2sub.py
 ```
