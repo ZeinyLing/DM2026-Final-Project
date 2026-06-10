@@ -1,7 +1,7 @@
 ## DM2026-Final-Project: Natural Disaster Severity Prediction
 
 * **Name and Student ID:** 314551087 黃奕睿, 314554023 李思恩, 314554021 王品喻
-
+* **Group 4** 
 ## Abstract
 
 This project aims to predict future drought severity scores for different geographic regions using historical meteorological data. We formulate the task as a multi-step time-series forecasting problem, where the past 91 days of daily weather observations are used to predict the severity scores for the next five prediction weeks. To improve prediction performance, we propose a multi-branch forecasting pipeline that combines different feature representations. One branch focuses on drought-related meteorological features, such as rolling precipitation statistics, hot-dry indices, and short-term versus long-term weather trends, while another branch incorporates region-level historical score priors to capture long-term regional characteristics. The proposed method further combines multiple forecasting models with a Naive historical reference and ensemble learning to improve prediction stability. Empirical post-processing is also applied to adjust the prediction distribution, clip outputs to the valid score range, and reduce unstable low-score predictions. Experimental results on the public leaderboard show that our method achieves a Public MAE of 0.7590 and ranks 2nd, demonstrating the effectiveness of combining diverse feature engineering strategies, ensemble learning, and post-processing for drought severity prediction.
