@@ -83,8 +83,7 @@ python ensemble2sub.py
 ### Step4: Ensemble results
 check the root
 ```bash
-CSV_A = 
-CSV_B = 
+ens = pd.read_csv(" ")
 ```
 After checking
 ```bash
