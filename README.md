@@ -65,6 +65,29 @@ After checking do 2 times, one for Tcn , one for PatchTST
 per_week_weight.py
 ```
 
+### Step2: Change weight for PatchTST and Tcn
+check the root
+* model_preds_drought_features.npy
+* naive_preds_drought_features.npy
+```bash
+SAMPLE_SUBMISSION = "./data/sample_submission.csv"
+model_preds = np.load("model_preds_drought_features.npy")
+naive_preds = np.load("naive_preds_drought_features.npy")
+
+```
+After checking do 2 times, one for Tcn , one for PatchTST
+```bash
+# execute one for Tcn , one for PatchTST
+ensemble2sub.py
+```
+
+
+
+
+
+
+
+
 ### Inference
 
 ```bash
