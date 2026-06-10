@@ -34,8 +34,17 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Training
+### Training 3 model
 
+Tcn
+```bash
+python train_V4.py 
+```
+PatchTST
+```bash
+python train_V4.py 
+```
+NHits
 ```bash
 python train_V4.py 
 ```
