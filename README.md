@@ -50,8 +50,15 @@ python NHits.py
 ```
 ### Step2: Change weight for PatchTST and Tcn
 
+check the root, you will get 2 .npy after training  PatchTST and Tcn
+* model_preds_drought_features.npy
+* naive_preds_drought_features.npy
 ```bash
-python NHits.py 
+SAMPLE_SUBMISSION = "./data/sample_submission.csv"
+model_preds = np.load("model_preds_drought_features.npy")
+naive_preds = np.load("naive_preds_drought_features.npy")
+
+#need to do for  
 ```
 
 ```bash
