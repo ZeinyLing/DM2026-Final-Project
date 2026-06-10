@@ -1,6 +1,6 @@
 ## DM2026-Final-Project: Natural Disaster Severity Prediction
 
-* **Name and Student ID:** 314551087 黃奕睿
+* **Name and Student ID:** 314551087 黃奕睿, 314554023 李思恩, 314554021 王品喻
 
 ## Abstract
 
@@ -20,16 +20,14 @@ pip install -r requirements.txt
 
 ```
 .
-├── train_V1.py           # Training baseline
-├── train_V2.py           # Training V2
-├── train_V3.py           # Training V3
-├── train_V4.py           # Training V4 (best)
-├── infer_V1.py           # inference baseline
-├── infer_V2.py           # inference V2
-├── infer_V3.py           # inference V3
-├── infer_V4.py           # inference V4 (best)
-├── requirements.txt      # Project dependencies
-└── data/                 # Dataset directory
+├── Tcn.py               # Training baseline
+├── PatchTS.py           # Training V2
+├── NHits.py             # Training V3
+├── per_week_weight.py   # Training V4 (best)
+├── ensemble2sub.py      # inference baseline
+├── infer_V2.py          # inference V2
+├── requirements.txt     # Project dependencies
+└── data/                # Dataset directory
 ```
 
 ## Usage
