@@ -80,35 +80,15 @@ After checking do 3 times,
 python ensemble2sub.py
 ```
 
-
-
-
-
-
-
-
-### Inference
-
+### Step4: Ensemble results
+check the root
 ```bash
-python infer_V4.py
+CSV_A = 
+CSV_B = 
 ```
-## Strategy and Adjustments
-
-The following modifications and strategies are applied in the model and training process:
-
-1. Uses residual learning to predict only the degradation correction.
-2. Uses Charbonnier Loss for stable image restoration training.
-3. Uses	DetailRefineBlock.
-4. Uses	FrequencyEnhanceBlock.
-5. Uses	Gated skip fusion.
-
-## Additional experiments
-
-### V1~3 (select the version you want)
+After checking
 ```bash
-python train_V<1~3>.py # select the version you want
-
-python infer_V<1~3>.py
+python postprocessing.py
 ```
 
 ## Performance
