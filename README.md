@@ -1,6 +1,6 @@
 ## DM2026-Final-Project: Natural Disaster Severity Prediction
 
-***Name and Student ID:** 314551087 黃奕睿
+* **Name and Student ID:** 314551087 黃奕睿
 
 ## Abstract
 
