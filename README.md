@@ -12,7 +12,6 @@ This project aims to predict future drought severity scores for different geogra
 
 
 ## Environment Setup
-<img src="img/p.png" width="1100">
 ### Dependencies
 
 ```bash
@@ -23,12 +22,12 @@ pip install -r requirements.txt
 
 ```
 .
-├── Tcn.py               # Training baseline
-├── PatchTS.py           # Training V2
-├── NHits.py             # Training V3
-├── per_week_weight.py   # Training V4 (best)
-├── ensemble2sub.py      # inference baseline
-├── infer_V2.py          # inference V2
+├── Tcn.py               # Tcn model
+├── PatchTST.py          # PatchTST model
+├── NHits.py             # NHits model
+├── per_week_weight.py   # 
+├── ensemble2sub.py      # ensemble 2 csv
+├── postprocessing.py    # postprocessing
 ├── requirements.txt     # Project dependencies
 └── data/                # Dataset directory
 ```
