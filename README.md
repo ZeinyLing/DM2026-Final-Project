@@ -68,14 +68,11 @@ python per_week_weight.py
 ### Step3: Ensemble results
 check the root
 ```bash
-SAMPLE_SUBMISSION = "./data/sample_submission.csv"
-model_preds = np.load("model_preds_drought_features.npy")
-naive_preds = np.load("naive_preds_drought_features.npy")
-
+CSV_A = 
+CSV_B = 
 ```
-After checking do,
+After checking do 3 times, 1. PatchTST + N-HiTS 2. TCN + N-HiTS 3. ( 1. + 2. )
 ```bash
-# execute one for Tcn , one for PatchTST
 python ensemble2sub.py
 ```
 
