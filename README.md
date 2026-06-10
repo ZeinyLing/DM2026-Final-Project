@@ -38,15 +38,15 @@ pip install -r requirements.txt
 
 Tcn
 ```bash
-python train_V4.py 
+python Tcn.py 
 ```
 PatchTST
 ```bash
-python train_V4.py 
+python PatchTST.py 
 ```
 NHits
 ```bash
-python train_V4.py 
+python NHits.py 
 ```
 
 ### Configuration
