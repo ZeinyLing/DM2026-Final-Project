@@ -80,7 +80,7 @@ After checking do 3 times,
 python ensemble2sub.py
 ```
 
-### Step4: post-processing
+### Step4: Post-processing
 check the root
 ```bash
 ens = pd.read_csv(" ")
