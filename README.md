@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Training 3 model
+### Step1: Training 3 model
 
 Tcn
 ```bash
@@ -48,24 +48,7 @@ NHits
 ```bash
 python NHits.py 
 ```
-
-### Configuration
-```bash
-# DATA PATH
-DATA_ROOT = "./hw4_realse_dataset"
-TRAIN_DEGRADED_DIR = os.path.join(DATA_ROOT, "train", "degraded")
-TRAIN_CLEAN_DIR = os.path.join(DATA_ROOT, "train", "clean")
-```
-Hyperparameter:
-- `Image Size`: 256 × 256
-- `Epochs`: 100
-- `Batch Size`: 8
-- `Learning Rate`: 1e-4
-- `Weight Decay`: 1e-4
-- `Validation Ratio`: 0.1
-- `Optimizer`: AdamW
-- `Scheduler`: CosineAnnealingLR
-- `Loss Function`: Charbonnier Loss
+### Step2: Training 3 model
 
 ### Inference
 
