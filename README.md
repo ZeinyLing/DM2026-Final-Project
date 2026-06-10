@@ -58,10 +58,10 @@ SAMPLE_SUBMISSION = "./data/sample_submission.csv"
 model_preds = np.load("model_preds_drought_features.npy")
 naive_preds = np.load("naive_preds_drought_features.npy")
 
-#need to do for  
 ```
-
+After checking do 2 times, one for Tcn , one for PatchTST
 ```bash
+# execute one for Tcn , one for PatchTST
 per_week_weight.py
 ```
 
