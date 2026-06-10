@@ -8,8 +8,11 @@ This project aims to predict future drought severity scores for different geogra
 
 ## Overall Pipeline of Our Method
 
+<img src="img/arc.png" width="1000">
+
+
 ## Environment Setup
-<img src="img/pubscore.png" width="1000">
+<img src="img/p.png" width="1000">
 ### Dependencies
 
 ```bash
@@ -94,5 +97,7 @@ python infer_V<1~3>.py
 | 8 | Weighted sub-ensemble | 0.7810 |
 | 9 | Weighted sub-ensemble + post-processing | 0.7590 |
 
+<img src="img/res.png" width="1000">
+
 ## Performance snapshot
-<img src="img/pubscore.png" width="1000">
+<img src="img/lead.png" width="1000">
