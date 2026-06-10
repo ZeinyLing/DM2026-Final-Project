@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ├── Tcn.py               # Tcn model
 ├── PatchTST.py          # PatchTST model
 ├── NHits.py             # NHits model
-├── per_week_weight.py   # 
+├── per_week_weight.py   # change weight for PatchTST and Tcn
 ├── ensemble2sub.py      # ensemble 2 csv
 ├── postprocessing.py    # postprocessing
 ├── requirements.txt     # Project dependencies
