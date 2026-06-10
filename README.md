@@ -48,7 +48,15 @@ NHits
 ```bash
 python NHits.py 
 ```
-### Step2: Training 3 model
+### Step2: Change weight for PatchTST and Tcn
+
+```bash
+python NHits.py 
+```
+
+```bash
+per_week_weight.py
+```
 
 ### Inference
 
